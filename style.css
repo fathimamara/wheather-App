@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    min-height: 100vh;
+}
+.weather-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 470px;
+}
+.weather-icon {
+    width: 170px;
+    margin-top: 20px;
+}
+.temp {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
